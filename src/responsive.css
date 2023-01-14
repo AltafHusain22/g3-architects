@@ -1,0 +1,28 @@
+/* -----------
+ menu responsive
+------------- */
+
+@media screen and (max-width:668px) {
+    ul li {
+        display: none;
+    }
+
+    .toggle_menu {
+        display: block;
+        font-size: 2.5rem;
+    }
+}
+
+
+/* -----------
+ Hero section responsive
+------------- */
+
+@media screen and (max-width:668px) {
+    .hero_info h2 {
+        margin-top: 20%;
+        font-size: 1.9rem;
+        line-height:2.4rem;
+        width: 90%;
+    }
+}

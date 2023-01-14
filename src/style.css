@@ -1,0 +1,109 @@
+/* -----------
+Google Fonts
+------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+/* -----------
+Typography
+------------- */
+
+:root {
+    --primary-text-color: #131313;
+    --secondary-color: #FF900E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* -----------
+header menu style 
+------------- */
+header {
+    width: 80%;
+    margin: 5% auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--primary-text-color);
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+.toggle_menu {
+    display: none;
+    font-size: 1.5rem;
+}
+
+/* -----------
+Hero section style 
+------------- */
+
+.container {
+    margin-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero_info {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.hero_info h2 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 75px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.hero_info p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn {
+    padding: 13px 15px;
+    margin-top: 10px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    background: var(--secondary-color);
+
+}
+
+.hero_image img {
+    width: 100%;
+    height: auto;
+}
