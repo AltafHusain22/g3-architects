@@ -9,7 +9,7 @@
 
     .toggle_menu {
         display: block;
-        font-size: 2.5rem;
+        font-size: 1.9rem;
     }
 }
 
@@ -21,8 +21,8 @@
 @media screen and (max-width:668px) {
     .hero_info h2 {
         margin-top: 20%;
-        font-size: 1.9rem;
+        font-size: 1.7rem;
         line-height:2.4rem;
-        width: 90%;
+        width: 100%;
     }
 }

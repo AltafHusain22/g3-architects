@@ -100,10 +100,58 @@ Hero section style
     text-align: center;
     border: 0;
     background: var(--secondary-color);
-
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .hero_image img {
     width: 100%;
     height: auto;
+}
+
+
+/* -----------
+Hero section style 
+------------- */
+.features_area {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.features_containeer {
+    display: flex;
+    gap: 20px;
+
+}
+
+.featured_img {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+
+}
+
+.featured_img img {
+    width: 100%;
+    height: auto;
+}
+
+.featured_info {
+    width: 50%;
+    height: 50vh;
+    margin-top: 20%;
+}
+
+.feature-title {
+    font-size: 2.3rem;
+    width: 70%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+
 }
