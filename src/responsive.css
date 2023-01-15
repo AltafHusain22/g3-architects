@@ -22,7 +22,57 @@
     .hero_info h2 {
         margin-top: 20%;
         font-size: 1.7rem;
-        line-height:2.4rem;
+        line-height: 2.4rem;
         width: 100%;
     }
 }
+
+/* -----------
+ Featured-1 section responsive
+------------- */
+
+@media screen and (max-width: 668px) {
+
+    .features_containeer {
+        flex-direction: column-reverse;
+
+    }
+
+    .featured_info {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .feature-title {
+        font-size: 1.9rem;
+        width: 90%;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .featured_info p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .explore-btn {
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+
+    .featured_img {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+
+    }
+}
+
+/* -----------
+ Featured-2 section responsive
+------------- */
