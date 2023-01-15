@@ -76,3 +76,47 @@
 /* -----------
  Featured-2 section responsive
 ------------- */
+@media screen and (max-width:668px) {
+    .featured-2-container {
+        flex-direction: column;
+        margin-top: 5%;
+        gap: 40px;
+    }
+
+    .featured-2-info {
+        width: 100%;
+    }
+
+    .featured-2-img {
+        width: 100%;
+    }
+
+    .featured-title h2 {
+        font-size: 1.9rem;
+        width: 100%;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        margin-left: 20px;
+    }
+
+    .experience {
+        padding: 30px 20px;
+        background-color: var(--secondary-color);
+        color: aliceblue;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: -25%;
+        margin-left: 2px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        
+    }
+
+   
+}
